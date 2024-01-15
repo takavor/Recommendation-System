@@ -45,17 +45,3 @@ if st.button('Recommend Similar Books'):
     for book in recommended_books:
         if book != selected_book:
             st.text(book)
-    # columns to list movies
-    # col1, col2, col3, col4 = st.columns(4)
-    
-    # with col1:
-    #     st.text(recommended_books[1])
-    
-    # with col2:
-    #     st.text(recommended_books[2])
-        
-    # with col3:
-    #     st.text(recommended_books[3])
-        
-    # with col4:
-    #     st.text(recommended_books[4])    
